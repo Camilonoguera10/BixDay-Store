@@ -636,9 +636,8 @@ span{
     align-items: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    border: 3px red solid;
     width: auto;
-    height: 300px;
+    height: 350px;
     background-color: lightgray;
 }
 
@@ -647,8 +646,7 @@ span{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px red solid;
-    width: 400px;
+    width: 90%;
     
 }
 
@@ -658,11 +656,36 @@ span{
     align-items: center;
     width: 100px;
     height: 100px;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     background-image: url(../Assets/Index//Body/Gmail.png);
     background-size: contain;
 }
 
+.text_newsletter_one{
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.text_newsletter_two{
+    font-size: 20px;
+}
+
+.label_email{
+    width: 700px;
+    margin-right: 2rem;
+    border: 2px red solid;
+    border-radius: 1.5rem;
+}
+
+.btn_suscribirse{
+    width: 150px;
+    border: 2px lightgray solid;
+    border-radius: 1.5rem;
+    background-color: red;
+    color: whitesmoke;
+    font-size: 20px;
+}
 
 .footer{
     border: 1px red solid;
@@ -675,6 +698,9 @@ span{
     height: 80px;
     margin-top: 2rem;
     margin-left: 2rem;
+    background-image: url(../Assets/Index/Footer/Logo.png);
+    background-color: transparent;
+    border: 3px red solid;
 }
 
 .text_footer{
