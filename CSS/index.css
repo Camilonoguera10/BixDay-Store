@@ -1,0 +1,711 @@
+html{
+    background-color: white;
+}
+.banner_header{
+    background-image: url(../Assets/Index/Header/Header.jpg);
+    background-color: #474747;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.5rem;
+    border: 0.15rem red solid;
+    width: 98%;
+    margin: 1% 1% 1% 1%;
+    padding: 0%;
+    margin-bottom: 3.2rem;
+}
+
+
+.opciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px red solid;
+}
+
+
+/*.text_opciones{
+    display: flex;
+    font-size: 1rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    
+}*/
+
+.categorias{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    border: 3px rgba(153, 0, 255, 0.389) solid;
+    border-radius: 2rem;
+    max-width: 45rem;
+    height: 4.5rem;
+    background-color: rgba(0, 0, 0, 0.363);
+    color: whitesmoke;
+}
+
+.cat_principal{
+    width: 4rem;
+}
+.cat_nav{
+    width: 1.8rem;
+}
+
+.promo{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+    margin-top: 25rem;
+    margin-bottom: 1.5rem;
+}
+
+.text_titulo{
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+
+}
+
+.text_descuento{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    border: 0.2rem whitesmoke solid;
+    border-radius: 0.8rem;
+    background-color: yellowgreen;
+}
+
+.text_precio{
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+}
+
+.boton_comprar{
+    background-color: whitesmoke;
+    border: #474747;
+    border-radius: 1.5rem;
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 21rem;
+}
+
+
+.btn_vertodo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+.boton_vertodo{
+    background-color: rgb(150, 150, 150);
+    width: 6.25rem;
+    height: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+    border: transparent;
+    border-radius: 1.5rem;
+}
+.text_juegosgratis{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.gridjuegosgratis{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.2rem;
+}
+
+
+.juego img{
+    width: 28.1rem;
+    height: 21.8rem;
+    border-radius: 1.5rem;
+}
+
+
+.glow-on-hover {
+    width: 13.75rem;
+    height: 2.125rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 0.625rem;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.banner_uno{
+
+    border: 2px transparent solid;
+    margin-bottom: 3.2rem;
+}
+
+.box_banner_uno{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.box_banner_uno img{
+    width: 5.25rem;
+    height: 5.25rem;
+}
+
+.text_banner_uno{
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+.text_banner_dos{
+    display: flex;
+    text-align: center;
+    border: 2px transparent solid;
+    width: 11.25rem;
+    margin-top: 1.25rem;
+}
+
+.contenido_reservas{
+    display: flex;
+    justify-content: space-evenly;
+
+    gap: 1rem;
+}
+
+.text_reserva{
+    background-color: transparent;
+    color: rgb(0, 166, 255);
+    border: 0.125rem rgb(0, 166, 255) solid;
+    border-radius: 1.5rem;
+    width: 5rem;
+}
+
+.text_fecha{
+    background-color: transparent;
+    color: rgb(0, 166, 255);
+    width: 7rem;
+}
+
+.text_descuentos{
+    background-color: transparent;
+    color: rgb(255, 145, 0);
+    border: 0.125rem rgb(255, 145, 0) solid;
+    border-radius: 1.5rem;
+    width: 5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+
+.glow-on-hover-dos {
+    width: 9.75rem;
+    height: 2.125rem;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.glow-on-hover-dos:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover-dos:active {
+    color: #000
+}
+
+.glow-on-hover-dos:active:after {
+    background: transparent;
+}
+
+.glow-on-hover-dos:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover-dos:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(0deg, rgba(0,134,255,1) 0%, rgba(0,255,248,1) 100%);
+    left: 0;
+    top: 0;
+    border-radius: 1.5rem;
+}
+
+.banner_dos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #141414;
+    height: 32.1rem;
+    margin-top: 5rem;
+}
+
+.banner_body_dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    height: 12.5rem;
+    margin-top: 10rem;
+    margin-right: 1.5rem;
+    
+}
+
+.imagen_atx img{
+    width: 50rem;
+    margin-left: -6.56rem;
+    margin-top: -5rem;
+}
+
+.estrellas img{
+    width: 4.37rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.text_banner_bixday{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color: whitesmoke;
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+span{
+    font-weight: bold;
+}
+
+.button_banner_dos{
+    width: 300px;
+    border: 0.2rem rgb(255, 72, 0) solid;
+    border-radius: 1.5rem;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size: 25px;
+}
+
+.membresias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(https://rare-gallery.com/mocahbig/39251-WaterArtistic-Neon-4k-Ultra-HD-Wallpaper.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.text_membresias{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.membresia_novato{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px lightgray solid;
+    background-image: url(../Assets/Index/Body/Membresia_Novaro_2.webp);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -150px;
+    width: 90%;
+    height: 90%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    border-radius: 3.5rem;
+}
+
+
+.membresia_elite{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px lightgray solid;
+    background-image: url(../Assets/Index/Body/Membresia_Chica_GTA.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: -150px;
+    width: 300px;
+    width: 90%;
+    height: 90%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    border-radius: 3.5rem;
+}
+
+.membresia_legendario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 3px whitesmoke solid;
+    background-image: url(../Assets/Index/Body/Call\ Of\ Duty.png);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: -330px;
+    width: 300px;
+    width: 90%;
+    height: 90%;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    border-radius: 3.5rem;
+}
+
+.text_titulo_membresia{
+    color: lightslategrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+.text_precio_membresia{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: orange;
+}
+
+.glow-on-hover-tres {
+    width: 9.75rem;
+    height: 2.125rem;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.glow-on-hover-tres:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover-tres:active {
+    color: #000
+}
+
+.glow-on-hover-tres:active:after {
+    background: transparent;
+}
+
+.glow-on-hover-tres:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover-tres:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:  orange;
+    left: 0;
+    top: 0;
+    border-radius: 1.5rem;
+}
+
+.categorias_body{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-bottom: 3rem;
+}
+
+.btn_accion{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.001.png);
+    background-size: 15rem;
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_arcade{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.002.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.btn_aventura{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.003.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_estrategia{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.004.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_fps{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.005.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_lucha{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.006.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_rpg{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.007.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn_multijugador{
+    width: 15rem;
+    height: 15rem;
+    border: 2px whitesmoke solid;
+    border-radius: 1.5rem;
+    background-image: url(../Assets/Index/Body/Categorias/Categorias.008.png);
+    background-size: 15rem;
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.carousel-item{
+    height: 600px;
+    
+}
+
+.newsletter{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 3px red solid;
+    width: auto;
+    height: 300px;
+    background-color: lightgray;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px red solid;
+    width: 400px;
+    
+}
+
+.btn_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-top: 1rem;
+    background-image: url(../Assets/Index//Body/Gmail.png);
+    background-size: contain;
+}
+
+
+.footer{
+    border: 1px red solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.text_footer{
+    width: 500px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.tienda_apps{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+.app{
+    width: 200px;
+    height: 55px;
+}
+
+.social_media{
+    width: 45px;
+    height: 45px;
+}
+.btn_footer{
+    background-color: transparent;
+    border: transparent 2px solid;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
