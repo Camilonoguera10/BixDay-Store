@@ -698,13 +698,13 @@ span{
     height: 80px;
     margin-top: 2rem;
     margin-left: 2rem;
-    background-image: url(../Assets/Index/Footer/Logo.png);
     background-color: transparent;
     border: 3px red solid;
 }
 
+
 .text_footer{
-    width: 500px;
+    width: 300px;
     margin-left: 2rem;
     margin-top: 1rem;
 }
