@@ -23,17 +23,6 @@ html{
     border: 3px red solid;
 }
 
-
-/*.text_opciones{
-    display: flex;
-    font-size: 1rem;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    align-items: center;
-    
-}*/
-
 .categorias{
     display: flex;
     justify-content: space-around;
@@ -698,7 +687,7 @@ span{
     height: 80px;
     margin-top: 2rem;
     margin-left: 2rem;
-    background-color: transparent;
+    background-image: url(../BixDay-Store/Assets/Index/Footer/Logo.png);
     border: 3px red solid;
 }
 
@@ -734,4 +723,5 @@ span{
 .copyright{
     display: flex;
     justify-content: center;
+    border: 3px red solid;
 }
